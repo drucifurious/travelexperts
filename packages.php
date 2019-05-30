@@ -199,7 +199,7 @@
 					for (i=0; i < travelDescs.length; i++) {
 
 	          document.write("<div class='cont'><img class='pichov' src=\"" + travelImages[i].src + "\" + height=300px width=500px>" + "<div class='centered'>" + travelDescs[i] + "</div>" + "</div>");
-						document.write("<div class='a cent'>" + "<button type='button' id=\"" + travelIDs[i] + "\" class='btn btn-secondary'>" + 'Display package information' + "</button>" + "</div>");
+						document.write("<div class='a cent'>" + "<button type='button' id=\"" + travelIDs[i] + "\" class='btn btn-secondary btn-lg'>" + 'Display package information' + "</button>" + "</div>");
 	        }
 
 	      </script>
@@ -321,7 +321,7 @@
 
 
 		<div class="a cent">
-			<button id="topper" type="button" class='btn btn-secondary'>Back to top</button> <button id="hider" type="button" class='btn btn-secondary'>Hide package</button> <a href="purchase.php"><button type="button" class='btn btn-secondary'>Purchase Package</button></a>
+			<button id="topper" type="button" class='btn btn-secondary btn-lg'>Back to top</button> <button id="hider" type="button" class='btn btn-secondary btn-lg'>Hide package</button> <a href="purchase.php"><button type="button" class='btn btn-secondary btn-lg'>Purchase Package</button></a>
 		</div>
 
 
