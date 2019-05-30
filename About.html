@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=100%">
+
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>About Us</title>
+	<link rel="stylesheet" href="assets/navigation-round.css">
+	<!-- Google font -->
+	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Alice:400,700" rel="stylesheet" type="text/css" />
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/Fstyle.css" />
+	<link rel="stylesheet" href="css/logo.css">
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<link rel="stylesheet" href="assets/demo.css">
+<link rel="stylesheet" href="assets/navigation-round.css">
+<link rel="stylesheet" href="assets/slicknav/slicknav.min.css">
+<link rel="stylesheet" href="assets/icons.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<header>
+
+	<nav class="menu-navigation-round">
+		<img class="logo" src="img/TElogo.png" alt="">
+		<a href="home.php">Home</a>
+		<a href="packages.php">Packages</a>
+		<a href="contact.php" >Contact</a>
+		<a href="About.html" class="selected">About</a>
+
+	</nav>
+	<script>
+		$(function () {
+
+			var menu = $('.menu-navigation-round');
+
+			menu.slicknav();
+
+			// Mark the clicked item as selected
+
+			menu.on('click', 'a', function () {
+				var a = $(this);
+
+				a.siblings().removeClass('selected');
+				a.addClass('selected');
+			});
+		});
+	</script>
+	<br>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="assets/slicknav/jquery.slicknav.min.js"></script>
+</header>
+
+<div class="webpage">
+<h3>About US</h3>
+<p>Pink Panther provides our customers with a wide range of consulting and advisory services across multiple projects.<br>
+   Our integrated offerings cover full web development, SQL Implementation and other related software development.
+    </p>
+
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="img/Drew.jpg" alt="Drew" style="width:50%">
+                <div class="container">
+                  <h2>Drew</h2>
+                  <p class="title">Team 1 </p>
+                  <p>Drew has affinity for software development.<br>
+                    He supports both front-end and back-end design to a greater extent.</p>
+                  <p>drew@pinkpanther.ca</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="img/Amin.jpg" alt="Amin" style="width:50%">
+                <div class="container">
+                  <h2>Amin</h2>
+                  <p class="title">Team 2</p>
+                  <p>Amin is an expert in graphic designs.<br>
+                     He gives webpages appealing features clients like to see. </p>
+                  <p>amin@pinkpanther.ca</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="img/Francis.jpg" alt="Francis" style="width:50%">
+                <div class="container">
+                  <h2>Francis</h2>
+                  <p class="title">Designer</p>
+                  <p>Francis is skilled in UI design,<br>
+                    naturally endowed with software project management skills.</p>
+                  <p>francis@pinkpanther.ca</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+<footer>
+	<div class="social-container">
+		<ul class="social-icons">
+			<li><a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="http://www.twitter.com"target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="http://www.facebook.com"target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="http://www.youtube.com"target="_blank"><i class="fa fa-youtube"></i></a></li>
+		</ul>
+</footer>
+
+</html>

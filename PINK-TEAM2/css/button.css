@@ -1,0 +1,35 @@
+
+
+.drew {
+	background-color:#FFDEAD;
+	opacity: 5;
+	border-radius: 5px;
+
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fffc3d;
+	-webkit-box-shadow: 0px 1px 0px 0px #fffc3d;
+	box-shadow: 0px 1px 0px 0px #fffc3d;
+	background-color:#f0ce7f;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15x;
+	border:2px solid #e8cba5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #fcaa37;
+}
+.myButton:hover {
+	background-color:#f0c96e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
