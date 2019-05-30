@@ -117,10 +117,10 @@ print ('<h1 style="font-size:60px">Good Evening</h1>');
 	<Div class="webpage">
 <h3 >Reach out to one of our agents for your pleasurable trips.</h3>
 <?php
-// include_once("dbconnAgt.php");
-// $query = "SELECT * FROM agents";
-// //Loop through the database to pull agent properties in card format using bootstrap//
-// $results = mysqli_query($conn, $query) or die("database error:". mysqli_error($conn));
+include_once("dbconn.php");
+$query = "SELECT * FROM agents";
+//Loop through the database to pull agent properties in card format using bootstrap//
+$results = mysqli_query($conn, $query) or die("database error:". mysqli_error($conn));
 ?>
 <div class="row card-deck cardpadding">
 <?php
