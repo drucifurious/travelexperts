@@ -177,7 +177,7 @@
 	  travelImages[2] = new Image();
 	  travelImages[2].src = "thailand.jpg";
 	  travelImages[3] = new Image();
-	  travelImages[3].src = "Europe.jpg"
+	  travelImages[3].src = "europe.jpg"
 
 	//Array for destinations
 
